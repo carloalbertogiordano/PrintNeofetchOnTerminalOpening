@@ -10,8 +10,10 @@ cp ~/.zshrc oldBashZshBackup
 
 if [[ "$SHELL" == "$bash" ]]; then
   echo "/usr/bin/PrintNeofetchOnShell.sh" >> ~/.bashrc
+  source ~/.bashrc
 fi
 
 if [[ "$SHELL" == "$zsh" ]]; then
   echo "/usr/bin/PrintNeofetchOnShell.sh" >> ~/.zshrc
+  source ~/.zshrc
 fi
