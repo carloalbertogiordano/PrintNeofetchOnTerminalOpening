@@ -8,4 +8,4 @@ A file containing the neofetch output is stored in /tmp folder. If a terminal is
 Just run install.sh (./install.sh)
 
 # How to unistall
-Run unistall.sh (./unistall.sh)
+Run unistall.sh (./RevertChanges.sh)
