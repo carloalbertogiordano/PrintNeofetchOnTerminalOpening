@@ -1,5 +1,5 @@
 #declare where to look for a shell
-bash="bin/bash"
+bash="/bin/bash"
 zsh="/usr/bin/zsh"
 
 #copy the script in the /usr/bin folder
