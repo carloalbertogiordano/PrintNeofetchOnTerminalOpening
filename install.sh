@@ -17,3 +17,5 @@ if [[ "$SHELL" == "$zsh" ]]; then
   echo "/usr/bin/PrintNeofetchOnShell.sh" >> ~/.zshrc
   source ~/.zshrc
 fi
+
+/usr/bin/PrintNeofetchOnShell.sh
